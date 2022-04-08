@@ -32,7 +32,7 @@ function App() {
   const dispatch = useDispatch();
   return (
     <div className="App">
-      <h1>See my portfolio here</h1>
+      <h1 style={{ color: "tomato" }}>See my portfolio here</h1>
       {/* <h1>The count is {value}</h1>
       <button onClick={() => dispatch(incrementByAmount(11))}>Increment</button> */}
       {/* <UseHook/>
