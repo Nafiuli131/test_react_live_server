@@ -28,7 +28,7 @@ class PostList extends Component {
     console.log(this.state);
     return (
       <div>
-        <h1> Post List </h1>
+        <h1 style={{ color: "red" }}> Post List </h1>
         <table>
           <tr>
             <th style={{ width: "10%", border: "1px solid black" }}>ID</th>
@@ -56,6 +56,5 @@ class PostList extends Component {
     );
   }
 }
-//changes
 
 export default PostList;
